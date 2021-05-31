@@ -1,0 +1,44 @@
+prm-search-result-tool-bar {
+    display: flex;
+    flex-direction: column-reverse;
+    position: initial;
+}
+
+prm-search-result-tool-bar-after md-card {
+    background-color: #f3f3f3;
+    width: 100%;
+    padding: 1em 1.5em 0;
+    margin: unset;
+    align-content: center;
+}
+
+prm-search-result-tool-bar-after md-card md-card-header {
+    width: 100%;
+    padding: unset;
+}
+
+prm-search-result-tool-bar-after md-card md-card-header div:first-child  {
+    width: 100%;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .75em;
+}
+
+prm-search-result-tool-bar-after md-card md-card-header div:first-child md-icon {
+    margin: unset;
+}
+
+prm-search-result-tool-bar-after md-card md-card-header h3 a{
+    font-weight: 600;
+    color: #44707b;
+}
+
+prm-search-result-tool-bar-after md-card md-card-content {
+    padding: unset;
+}
+
+prm-search-result-tool-bar-after md-card md-card-actions {
+    width:100%;
+}
+
