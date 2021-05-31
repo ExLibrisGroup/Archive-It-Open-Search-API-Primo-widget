@@ -63,9 +63,7 @@
         let _this = this;
         this.$onInit = () => {
             _this.query = getQuery();
-            console.log(`web archive search query is: ${_this.query}`);
             queryWebArchiveApi().then((response)=>{
-                console.log(`Web archive API response: ${response}`);
                 let firstItem = response.querySelector('item');
                 let item = {};
                 item.title = firstItem.querySelector('title').innerHTML;
@@ -119,8 +117,6 @@
             });
         }
     }])
-
-
 })();
 
    
